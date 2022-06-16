@@ -1,0 +1,46 @@
+{
+    "name": "snvk/pedigree",
+    "description": "Creating pedigree structure",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "pedigree"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinod Patidar",
+            "homepage": "https://snayvik.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "snvk\\pedigree\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Pedigree",
+        "handle": "pedigree",
+        "developer": "Vinod Patidar",
+        "developerUrl": "https://snayvik.com",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "class": "snvk\\pedigree\\Pedigree"
+    }
+}

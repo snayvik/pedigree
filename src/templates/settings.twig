@@ -1,0 +1,189 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * pedigree plugin for Craft CMS 3.x
+ *
+ * pedigree Settings.twig
+ *
+ * @author    Vinod Patidar
+ * @copyright Copyright (c) 2022 Vinod Patidar
+ * @link      https://snayvik.com
+ * @package   Pedigree
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("snvk\\pedigree\\assetbundles\\pedigree\\PedigreeAsset") %}
+
+<table class="pedigree-table">
+    <tbody>
+        <tr>
+            <td rowspan="8">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0',
+                        name: 'level0',
+                        placeholder : 'Level0',
+                        value: settings['level0']})
+                    }}
+                </div>
+            </td>
+            <td rowspan="4">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level01',
+                        name: 'level01',
+                        placeholder : 'Level01',
+                        value: settings['level01']})
+                    }}
+                </div>
+            </td>
+            <td rowspan="2">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level011',
+                        name: 'level011',
+                        placeholder : 'Level011',
+                        value: settings['level011']})
+                    }}
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0111',
+                        name: 'level0111',
+                        placeholder : 'Level0111',
+                        value: settings['level0111']})
+                    }}
+                </div>            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0112',
+                        name: 'level0112',
+                        placeholder : 'Level0112',
+                        value: settings['level0112']})
+                    }}
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level012',
+                        name: 'level012',
+                        placeholder : 'Level012',
+                        value: settings['level012']})
+                    }}
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0121',
+                        name: 'level0121',
+                        placeholder : 'Level0121',
+                        value: settings['level0121']})
+                    }}
+                </div>   
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0122',
+                        name: 'level0122',
+                        placeholder : 'Level0122',
+                        value: settings['level0122']})
+                    }}
+                </div>   
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="4">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level02',
+                        name: 'level02',
+                        placeholder : 'Level02',
+                        value: settings['level02']})
+                    }}
+                </div>
+            </td>
+            <td rowspan="2">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level021',
+                        name: 'level021',
+                        placeholder : 'Level021',
+                        value: settings['level021']})
+                    }}
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0211',
+                        name: 'level0211',
+                        placeholder : 'Level0211',
+                        value: settings['level0211']})
+                    }}
+                </div>            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0212',
+                        name: 'level0212',
+                        placeholder : 'Level0212',
+                        value: settings['level0212']})
+                    }}
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level022',
+                        name: 'level022',
+                        placeholder : 'Level022',
+                        value: settings['level022']})
+                    }}
+                </div>            
+            </td>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0221',
+                        name: 'level0221',
+                        placeholder : 'Level0221',
+                        value: settings['level0221']})
+                    }}
+                </div>   
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    {{ forms.textField({
+                        id: 'level0222',
+                        name: 'level0222',
+                        placeholder : 'Level0222',
+                        value: settings['level0222']})
+                    }}
+                </div>   
+            </td>
+        </tr>
+    </body>
+</table>
