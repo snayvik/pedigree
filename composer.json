@@ -12,10 +12,6 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "support": {
-        "docs": "???",
-        "issues": "???"
-    },
     "license": "MIT",
     "authors": [
         {
