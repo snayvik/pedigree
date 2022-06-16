@@ -36,9 +36,7 @@
         "name": "Pedigree",
         "handle": "pedigree",
         "developer": "Vinod Patidar",
-        "developerUrl": "https://snayvik.com",
-        "documentationUrl": "???",
-        "changelogUrl": "???",
+        "developerUrl": "https://snayvik.com",        
         "class": "snvk\\pedigree\\Pedigree"
     }
 }
